@@ -1,0 +1,145 @@
+#game {
+	width: 371px;
+	position: relative;
+	margin: 0 auto;
+	padding: 0 0 45px 0;
+}
+
+#tab {
+	clear: both;
+	border-style: solid;
+	border-color: #000;
+	border-width: 1px 2px 2px 1px;
+	width: 371px;
+	height: 371px;
+	margin: 0 auto;
+	padding: 0;
+	list-style: none;
+}
+
+#tab li {
+	border-left: 1px solid #000;
+	border-top: 1px solid #000;
+	cursor: pointer;
+	width: 40px;
+	height: 40px;
+	float: left;
+	padding: 0;
+}
+
+#game li p { margin: 0; }
+
+#diff_lvl {
+	list-style: none;
+	width: 130px;
+	float: left;
+	margin-left: 115px;
+	_margin-left: 55px;
+}
+
+#controls {
+	list-style: none;
+	width: 130px;
+	float: left;
+}
+
+#controls li {
+	margin: 5px 0;
+	_margin: 3px 0;
+}
+
+#controls input {
+	width: 130px;
+}
+
+#mapsubmit { width: 6em; }
+
+#tab li.r, #tab li.rb { border-right:1px solid #000; }
+
+#tab li.b , #tab li.rb { border-bottom:1px solid #000; }
+
+#tab li p span {
+	width: 40px; 
+	height: 40px;
+	line-height: 40px;
+	display: block;
+	text-indent: -1983em;
+	overflow: hidden;
+	background-repeat: no-repeat;
+}
+
+.n1, .n2, .n3, .n4, .n5, .n6, .n7, .n8, .n9 { background-image: url(ns.png); }
+.n2 { background-position: 0 -40px; }
+.n3 { background-position: 0 -80px; }
+.n4 { background-position: 0 -120px; }
+.n5 { background-position: 0 -160px; }
+.n6 { background-position: 0 -200px; }
+.n7 { background-position: 0 -240px; }
+.n8{ background-position: 0 -280px; }
+.n9{ background-position: 0 -320px; }
+
+.solR .n1 { background-position: -40px 0px; }
+.solR .n2 { background-position: -40px -40px; }
+.solR .n3 { background-position: -40px -80px; }
+.solR .n4 { background-position: -40px -120px; }
+.solR .n5 { background-position: -40px -160px; }
+.solR .n6 { background-position: -40px -200px; }
+.solR .n7 { background-position: -40px -240px; }
+.solR .n8 { background-position: -40px -280px; }
+.solR .n9 { background-position: -40px -320px; }
+
+.solW .n1 { background-position: -80px 0px; }
+.solW .n2 { background-position: -80px -40px; }
+.solW .n3 { background-position: -80px -80px; }
+.solW .n4 { background-position: -80px -120px; }
+.solW .n5 { background-position: -80px -160px; }
+.solW .n6 { background-position: -80px -200px; }
+.solW .n7 { background-position: -80px -240px; }
+.solW .n8 { background-position: -80px -280px; }
+.solW .n9 { background-position: -80px -320px; }
+
+.numz {
+	margin: 0;
+	padding: 0;
+}
+
+dl {
+	width: 60px;
+	height: 80px;
+	background: transparent url(numset.png) no-repeat 0 0;
+	border: 1px solid #CCC;
+	position: absolute;
+	top: -10000px;
+	z-index: 115;
+}
+
+dt {
+	float: left;
+	width: 20px;
+	height: 20px;
+	display: inline;
+}
+
+dt a {
+	width: 20px;
+	height: 20px;
+	display: block;
+}
+
+#descr { text-align: center; }
+
+#timer {
+	width: 320px;
+	height: 40px;
+	margin: 0 auto;
+}
+
+#timer div {
+	width: 40px;
+	height: 40px;
+	float: left;
+}
+
+#timer #th1, #timer #th2, #timer #tm1, #timer #tm2, #timer #ts1, #timer #ts2 { background: url(../i/timer.png) no-repeat 0 0; }
+
+#timer #tsc1, #timer #tsc2 { background: url(../i/timer.png) no-repeat -400px 0; }
